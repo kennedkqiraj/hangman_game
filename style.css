@@ -1,0 +1,33 @@
+/* Add this CSS for a full-page background image */
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+    background: url('../static/background.png') no-repeat center center fixed;
+    background-size: cover;
+    color: #ffffff; /* Optional: Adjust text color for readability */
+}
+
+#game-container {
+    text-align: center;
+    padding: 20px;
+    width: 300px;
+    background-color: rgba(0, 0, 0, 0.7); /* Semi-transparent background */
+    border-radius: 10px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+}
+
+#image-container img {
+    width: 100%;
+    margin-bottom: 20px;
+}
+
+#guess-input {
+    padding: 10px;
+    margin-top: 10px;
+    width: 80%;
+    color: #333;
+}
