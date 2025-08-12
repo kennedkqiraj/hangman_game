@@ -141,26 +141,6 @@ Submit a single-letter guess.
 - **Images**: replace `/static/hangman*.png` with your own assets if you like.
 - **Word list**: edit `WORDS` in `app.py` to add/remove words.
 
----
-
-## Development Tips
-
-- **Restart on code changes**: run with `FLASK_ENV=development` or `debug=True` in `app.run`.
-- **Linting/formatting** (optional):
-  ```bash
-  pip install black flake8
-  black .
-  flake8 .
-  ```
-- **.gitignore** (suggested):
-  ```
-  .venv/
-  __pycache__/
-  *.pyc
-  .DS_Store
-  ```
-
----
 
 ## Troubleshooting
 
@@ -196,5 +176,4 @@ MIT — feel free to use, modify, and share.
 
 ---
 
-## Acknowledgments
-Built with ❤️ using Flask. Have fun hacking on it!
+
